@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body>
+      <div id="root">
+        
+      </div>
+
+      <script>
+       let div   =  React.createElement('div',{style:{
+        border:"5px solid gainsboro",
+        borderRadius:"10px",
+        width:"500px",
+        height:"600px",
+        margin:"0 auto"
+       }},
+       [
+        React.createElement('img',
+        {   src:"https://biznakenya.com/wp-content/uploads/2017/06/Professional-Man-Business-Suit-Dressed.jpg",
+            
+            
+            style:{
+                border:"1px solid gainsboro",
+                borderRadius:"50%",
+                width:"200px",
+                height:"200px",
+                marginTop:"10px",
+                marginLeft:"140px"
+                
+            }
+        }),
+        React.createElement('h1',{style:{textAlign:"center",color:"rgb(56, 196, 196)"}},"Donel Sinha"),
+        
+        React.createElement('p',{style:{textAlign:"center"}},'I enjoy making coffee everyday'),
+        
+        React.createElement('div',{style:{display:"flex",justifyContent:"space-around"}},[
+
+            React.createElement('div',null,[
+                React.createElement('h1',{style:{color:"blue"}},"200"),
+                React.createElement('p',null,"Post")
+            ]),
+            React.createElement('div',null,[
+                React.createElement('h1',{style:{color:"blue"}},"20k"),
+                React.createElement('p',null,"followers")
+            ]),
+            React.createElement('div',null,[
+                React.createElement('h1',{style:{color:"blue"}},"20"),
+                React.createElement('p',null,"following")
+            ])
+
+        ]),
+        React.createElement('div',{style:{marginTop:"70px",display:"flex",justifyContent:"space-around"}},[
+            React.createElement('button',{style:{width:"150px",height:"50px",borderRadius:"5px"}},"Follow"),
+            React.createElement('button',{style:{width:"150px",height:"50px",borderRadius:"5px"}},"Message")
+        ])
+        
+    ])  
+       
+              
+         ReactDOM.render(div,document.getElementById('root'))
+         
+
+     </script>
+</body>
+</html>
