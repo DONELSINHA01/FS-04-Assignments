@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+   <div id="root"> </div>
+
+   <script type="text/babel">
+      var cardStyle = {
+         border: "1px solid royalblue",
+         width: "500px",
+         height: "600px",
+         margin: "0 auto",
+         borderRadius:"7px"
+      }
+      var imageStyle = {
+        
+         width: "100%",
+         height: "300px",
+         borderRadius:"7px",
+         
+         
+      }
+      var textStyle = {
+         textAlign: "center"
+      }
+      var trackStyle = {
+        background:"gainsboro",
+         display: "flex",
+          justifyContent: "space-around",
+          color: "rgb(56, 196, 196)",
+          marginTop:"84px",
+          borderRadius:"7px"
+          
+      }
+      
+      
+
+
+
+
+      var card = <div style={cardStyle}>
+         <img style={imageStyle}
+
+            src="https://th.bing.com/th/id/R.0c5f9571a90bc05d0bcb3193a2297380?rik=6fQCau5HF%2bZrjA&riu=http%3a%2f%2fwww.marketingdonut.co.uk%2fsites%2fdefault%2ffiles%2fwhat-should-you-include-professional-profile142825543.jpg&ehk=M6F5xFcLOD9yXL9aFX6F2So%2bi1o0J67b0ark4clJqGU%3d&risl=&pid=ImgRaw&r=0" />
+
+         <h1 style={textStyle}>Donel Sinha</h1>
+         <p style={textStyle}>UI/UX Designer</p>
+         <div style= {trackStyle}>
+            <div>
+               <h1>250</h1>
+               <p>followers</p>
+            </div>
+            <div>
+               <h1>250</h1>
+               <p>followers</p>
+            </div>
+            <div>
+               <h1>250</h1>
+               <p>followers</p>
+            </div>
+         </div>
+        
+      </div>
+
+      ReactDOM.render(card, document.getElementById('root'))
+
+   </script>
+</body>
+
+</html>
