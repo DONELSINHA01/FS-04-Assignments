@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+   <div id="root"> </div>
+
+   <script type="text/babel">
+      var cardStyle = {
+         border: "1px solid royalblue",
+         width: "500px",
+         height: "600px",
+         margin: "0 auto"
+      }
+      var imageStyle = {
+         borderRadius: "50%",
+         width: "200px",
+         height: "200px",
+         marginLeft: "140px"
+      }
+      var textStyle = {
+         textAlign: "center"
+      }
+      var trackStyle = {
+         display: "flex",
+          justifyContent: "space-around",
+          color: "rgb(56, 196, 196)"
+      }
+      var buttonDivStyle={
+         display: "flex",
+             justifyContent: "space-around",
+             marginTop: "60px"
+      }
+      var buttonStyle = {
+         width: "140px",
+         height: "50px"
+      }
+
+
+
+
+      var card = <div style={cardStyle}>
+         <img style={imageStyle}
+
+            src="https://biznakenya.com/wp-content/uploads/2017/06/Professional-Man-Business-Suit-Dressed.jpg" />
+
+         <h1 style={textStyle}>Donel Sinha</h1>
+         <p style={textStyle}>I Enjoy making a cup of coffee everyday</p>
+         <div style= {trackStyle}>
+            <div>
+               <h1>250</h1>
+               <p>followers</p>
+            </div>
+            <div>
+               <h1>250</h1>
+               <p>followers</p>
+            </div>
+            <div>
+               <h1>250</h1>
+               <p>followers</p>
+            </div>
+         </div>
+         <div style={buttonDivStyle}>
+            <button style={buttonStyle}>Follow</button>
+            <button style={buttonStyle}>Message</button>
+         </div>
+      </div>
+
+      ReactDOM.render(card, document.getElementById('root'))
+
+   </script>
+</body>
+
+</html>
