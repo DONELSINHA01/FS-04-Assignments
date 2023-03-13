@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+   <div id="root" > </div>
+
+   <script type="text/babel">
+      var main={
+        margin:"0",
+        padding:"0"
+      }
+      var nav={
+        
+        display:"flex",
+        justifyContent:"space-between",
+        alignItems:"center",
+        backgroundColor:"yellow"
+
+      }
+     var list={
+        listStyle:"none",
+        display:"flex",
+        gap:"55px",
+        alignItems:"center",
+        marginRight:"10px"
+
+     }
+
+     var mid={
+        width:"100%",
+        height:"400px",
+        backgroundColor:"gainsboro",
+        textAlign:"center",
+        paddingTop:"90px"
+     }
+      
+     
+      var card = <div style={main}>
+         <div style={nav}>
+            <h2>Koding Made Easy</h2>
+         <ul style={list}>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        
+         </ul>
+         </div>
+         <div style={mid}>
+            <h1>Customize Bootstrap Navbar</h1>
+            <p>Easy way to change background, text and hover link color in bootstrap...</p>
+         </div>
+        
+      </div>
+
+      ReactDOM.render(card, document.getElementById('root'))
+
+   </script>
+</body>
+
+</html>
