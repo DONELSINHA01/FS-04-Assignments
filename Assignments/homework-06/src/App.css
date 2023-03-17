@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gainsboro;
+  font-weight: bold;
+}
+
+.content1{
+  padding-left: 30px;
+  color: rgb(180, 178, 178);
+  font-family: "Yu Gothic UI";
+}
+
+.content2,.content3{
+  display: flex;
+  gap:13px;
+  list-style: none;
+  align-items: center;
+}
+
+.content3{
+  padding-right: 30px;
+}
+
+.mid{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  padding-top: 40px;
+}
+.mid1{
+  
+  text-align: left;
+  width: 30vw;
+  height:60vh;
+  position: relative;
+}
+
+img{
+  width: 50vw;
+  height:60vh
+
+}
+h1{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.circle1{
+  border-radius: 50%;
+  background-color:rgb(255, 242, 0);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 360px;
+  left: 20px;
+  
+}
+.circle2{
+  border-radius: 50%;
+  background-color:  rgb(202, 34, 82);
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  top: 280px;
+  left: 70px;
+
+}
+
+.circle3{
+  border-radius: 50%;
+  background-color: rgb(45, 132, 209);
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  top: 344px;
+  left: 110px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #474849;
+  padding: 20px;
+  gap: 20px;
+  position: absolute;
+  top: 75%;
+  bottom: 0;
+}
+
+.card{
+  color: whitesmoke;
+  text-align: left;
+
+}
+
+
+
+
+
+
+
+
