@@ -1,0 +1,42 @@
+* {
+  background-color: rgb(245, 245, 245);
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+
+}
+
+th{
+  background-color: #ebe9e9;
+  border: none;
+}
+
+
+
+ul{
+  
+  margin-left: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  list-style: none;
+}
+
+table{
+  width: 90vw;
+  
+}
+.nav{
+  background-color: #ebe9e9;
+}
+thead{
+  background-color: #d1cbcb;
+  text-align: left;
+  margin: 10px;
+}
+
+
