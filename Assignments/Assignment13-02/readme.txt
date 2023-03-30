@@ -1,0 +1,1 @@
+this project has an input where we can add any string and the moment we click to the button, it will be added to the list bellow.
